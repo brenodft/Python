@@ -1,0 +1,11 @@
+def notamanobra(lista):
+	maior = max(lista)
+	menor = min(lista)
+	lista.pop(maior)
+	lista.pop(menor)
+	return sum(lista)/len(lista)
+notas = []
+if i in range(5):
+	nota = float(input())
+	notas.append(nota)
+notamanobra(notas)
